@@ -21,6 +21,12 @@ body {
   font: 18px "Buenard", "Georgia", "Times New Roman", serif;
   font-size: small;
   text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; }
@@ -40,11 +46,17 @@ table {
 
 .site {
   font-size: 155%;
-  text-align: justify;
+  text-align: center;
   width: 95%;
   max-width: 33em;
   margin: 0.6em auto 2em;
   line-height: 1.4em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
 }
 
 header {
@@ -68,8 +80,9 @@ header a:hover {
 }
 
 header h1.title {
-  font-size: 135%;
+  font-size: 350%;
   display: inline-block;
+  text-align: center;
 }
 
 .site .meta {
@@ -82,5 +95,5 @@ footer {
   border-top: 1px dotted #ddd;
   margin-top: 2em;
   overflow: hidden;
-  text-align: left;
+  text-align: center;
 }
