@@ -10,10 +10,6 @@
   font-weight: 700;
   src: local('Buenard Bold'), local('Buenard-Bold'), url(http://themes.googleusercontent.com/static/fonts/buenard/v4/8T0adwz_RAtKrxbccQmEFBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   background-color: #f5f5f5;
@@ -29,20 +25,13 @@ body {
   user-select: none;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; }
 
-h1 { margin-bottom: 0.6em; }
-p { margin: 1em 0; }
 
 a:link { color: #B61A1A; }
 a:visited { color: #B61A1A; }
 a:hover { color: #333; }
 a:active { color: #B61A1A; }
 
-table {
-  font-size: inherit;
-  font: 100%;
-}
 
 .site {
   font-size: 155%;
@@ -60,6 +49,7 @@ table {
 }
 
 header {
+line-height: 3em;
   border-bottom: 1px dotted #ddd;
   margin-top: 40%;
   margin-bottom: 1.6em;
@@ -70,17 +60,12 @@ header a {
   text-decoration: none;
 }
 
-header a.extra {
-  margin-left: 1em;
-  color: #aaa;
-}
-
 header a:hover {
-  color: #333;
+  color: #B61A1A;
 }
 
 header h1.title {
-  font-size: 350%;
+font-size: 300%;
   display: inline-block;
   text-align: center;
 }
